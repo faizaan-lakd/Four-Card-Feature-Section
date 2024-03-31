@@ -13,6 +13,8 @@ body {
     background-color: hsl(0, 0%, 98%);
     padding: 5rem 10rem;
     font-size: 0.9375rem;
+    display: grid;
+    place-content: center;
 }
 
 header {
@@ -88,4 +90,65 @@ main {
 
 .blue {
     border-top: 0.3rem solid hsl(212, 86%, 64%);
+}
+
+@media (max-width: 1260px) {
+    body {
+        padding: 3rem 5rem;
+    }
+}
+
+@media (max-width: 925px) {
+    body {
+        padding: 2rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        max-width: 30rem;
+        justify-self: center;
+    }
+
+    .card {
+        align-self: auto;
+    }
+}
+
+@media (max-width: 565px) {
+    h1,
+    h2 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 0.85rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 426px) {
+    body {
+        padding: 2.5rem 0.9375rem;
+    }
+
+    h1,
+    h2 {
+        font-weight: 600;
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .card .card-icon {
+        margin-top: 1rem;
+        text-align: end;
+    }
 }
