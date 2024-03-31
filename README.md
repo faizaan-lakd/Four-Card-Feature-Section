@@ -4,11 +4,12 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 
 ## Screenshot
+Desktop Screenshot
+![Desktop Screenshot](images/Desktop-Screenhot.PNG)
 
-![Desktop Screenshot](images/Desktop-Screenshot.PNG)
 
-
-![Mobile Screenhot](images/Mobile-Screenshot.PNG)
+Mobile Screenshot
+![Mobile Screenshot](images/Mobile-Screenshot.PNG)
 
 ## Links
 
